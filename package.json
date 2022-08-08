@@ -1,0 +1,36 @@
+{
+  "name": "yoo-cmd-cli",
+  "version": "1.0.0",
+  "description": "快速安装、管理",
+  "main": "index.js",
+  "tempRepository": "",
+  "scripts": {
+    "lint": "npx eslint . --fix"
+  },
+  "keywords": [
+    "cmd",
+    "yoo-cmd-cli"
+  ],
+  "bin": "index.js",
+  "author": "Yuan Qinglong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "5.0.1",
+    "commander": "9.3.0",
+    "download-git-repo": "3.0.2",
+    "fs-extra": "10.1.0",
+    "inquirer": "8.2.4",
+    "log-symbols": "5.1.0",
+    "ora": "6.1.0",
+    "update-notifier": "5.1.0",
+    "validate-npm-package-name": "4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.0"
+  }
+}
